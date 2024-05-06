@@ -1,0 +1,198 @@
+.text-primary{
+    color: #28a745;
+}
+.text-secondary{
+    color: #0284da;
+}
+.btn{
+    cursor: pointer;
+    background: #28a745;
+    color:#fff;
+    padding: 10px 30px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+.btn-primary,.bg-primary{
+    background:#28a745;
+    color: white;
+}
+.btn-secondary,.bg-secondary{
+    background:#0284da;
+    color: white;
+}
+.btn-dark,.bg-dark{
+    background:#333;
+    color: white;
+}
+.btn-light,.bg-light {
+    background:#f4f4f4;
+    color: #333;
+}
+.btn-outline{
+    background: transparent;
+    border: 1px solid #fff;
+}
+.flex-items{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+.flex-items > div{
+    padding: 20px;
+
+}
+
+.flex-columns .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ width: 100%;   
+}
+.flex-columns .column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+
+}
+.flex-columns .column-1,
+.flex-columns .column-2{
+    height: 100%;
+}
+.flex-columns img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.flex-columns .column-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+}
+.flex-columns h2{
+    font-size: 40px;
+    font-weight: 100;
+}
+.flex-columns h4{
+    margin-bottom: 10px;
+}
+.flex-columns p{
+    margin: 20px 0;
+}
+
+.cases img:hover{
+    opacity: .7;
+}
+.section-header{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-header h2{
+    font-size: 40px;
+    font-weight: 100;
+    margin:20px 0 ;
+}
+.section-padding{
+    padding: 20px 20px 40px;
+}
+.flex-grid .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+}
+.flex-grid .column{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+.flex-reverse .row{
+  
+    flex-direction: row-reverse;
+}
+.team img{
+    border-radius: 50%;
+
+}
+
+.callback-form{
+    width: 100%;
+    padding: 20px 0;
+}
+.callback-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+.callback-form .form-control{
+    margin-bottom: 15px;
+}
+.callback-form input{
+    width: 100%;
+    padding: 4px;
+    height: 40px;
+    border: #f5f5f5 1px solid;
+    
+}
+
+.callback-form input:focus{
+    outline-color: bisque;
+}
+.callback-form .btn{
+    padding: 12px 0;
+    margin-top: 20px;
+}
+
+.post{
+    padding: 50px 30px;
+}
+
+.post h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: #ccc solid 2px;
+}
+.post .meta{
+    margin-bottom: 30px;
+}
+.post img{
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    
+}
+.footer a{
+    color: #fff;
+    
+}
+
+.footer a:hover{
+    color: green;
+}
+.footer .social > * {
+    margin-right: 30px;
+}
